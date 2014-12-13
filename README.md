@@ -17,3 +17,4 @@ node stream-server.js <password>
 ```
 ffmpeg -s 320x240 -f video4linux2 -i /dev/video1 -f mpeg1video -b 800k -r 30 http://<domain>:8082/<password>/320/240/
 ```
+
